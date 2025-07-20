@@ -5,11 +5,10 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.application-processor]
-path = 'contracts/application-processor.clar'
+[contracts.ceremony-scheduler]
+path = 'contracts/ceremony-scheduler.clar'
 clarity_version = 2
 epoch = 2.5
-
 [repl.analysis]
 passes = ['check_checker']
 
